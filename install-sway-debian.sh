@@ -33,7 +33,7 @@ sudo nala install -y zathura
 # For legacy apps(x11) support on sway wayland
 sudo nala install -y wayland-protocols xwayland xorg mesa-utils
 sudo nala install -y xdg-user-dirs
-sudo nala install -y lxqt-policykit-agent
+sudo nala install -y lxqt-policykit
 
 # Install flatpak for containerized gui apps
 sudo nala install -y flatpak
