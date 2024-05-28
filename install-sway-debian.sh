@@ -6,6 +6,9 @@ sudo apt install -y nala
 # Essential utilities
 sudo nala install -y gammastep tmux htop btop zsh curl wget unzip git fzf fd-find ripgrep ffmpeg jq brightnessctl pipx python3-dev zoxide
 
+#Install stow
+sudo nala install -y stow
+
 #Install compilers and build systems
 sudo nala install -y gcc meson
 
@@ -128,6 +131,9 @@ sudo nala install -y pkg-config libcairo2-dev libgirepository1.0-dev
 
 #Enable hyprland like autotiling
 pipx install autotiling
+
+#add all stow configs
+stow .
 #Reboot the system
 echo ==============================================
 echo "Please reboot your system"
