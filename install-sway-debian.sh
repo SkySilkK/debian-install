@@ -4,7 +4,7 @@ sudo apt update -y && sudo apt upgrade -y
 sudo apt install -y nala
 
 # Essential utilities
-sudo nala install -y gammastep tmux htop btop zsh curl wget unzip git fzf fd-find ripgrep ffmpeg jq brightnessctl pipx python3-dev
+sudo nala install -y gammastep tmux htop btop zsh curl wget unzip git fzf fd-find ripgrep ffmpeg jq brightnessctl pipx python3-dev zoxide
 
 #Install compilers and build systems
 sudo nala install -y gcc meson
