@@ -19,13 +19,6 @@ set $term wezterm
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
 set $menu wofi
-
-#Set default browser
-set $browser flatpak run org.mozilla.firefox
-
-#set nighlight app
-set $nightlight gammastep -O 3700
-
 #Start gnome policykit
 exec lxqt-policykit-agent
 
@@ -34,7 +27,6 @@ exec swaync
 
 #Autostart waybar
 exec waybar
-
 
 #Restore wallpaper 
 exec waypaper --restore
@@ -90,15 +82,8 @@ include /etc/sway/config-vars.d/*
     # Start a terminal
     bindsym $mod+Return exec $term
 
-    #Start your browser
-    bindsym $mod+Shift+b exec $browser
-
-    #Enable nightlight
-    bindsym $mod+Shift+m exec $nightlight
-    #Disable nightlight
-    bindsym $mod+Shift+n exec pkill gammastep
-    # Toggle notification control center
-    bindsym $mod+n exec swaync-client -t -sw
+    # Toggle control center
+    bindsym $mod+Shift+n exec swaync-client -t -sw
 
     # Kill focused window
     bindsym $mod+q kill
