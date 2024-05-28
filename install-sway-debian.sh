@@ -131,6 +131,7 @@ sudo nala install -y pkg-config libcairo2-dev libgirepository1.0-dev
 
 #Enable hyprland like autotiling
 pipx install autotiling
+pipx install waypaper
 
 #add all stow configs
 stow .
