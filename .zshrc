@@ -20,3 +20,4 @@ export LANG=en_IN.UTF-8
 # Created by `pipx` on 2024-05-28 06:26:44
 export PATH="$PATH:$HOME/.local/bin"
 
+alias ls="eza --icons"
