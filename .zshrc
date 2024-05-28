@@ -73,6 +73,8 @@ export PATH="$PATH:$HOME/.local/bin"
 #Aliases
 alias ls="eza --icons"
 alias cat="batcat"
+alias poweroff="systemctl poweroff"
+alias reboot="systemctl reboot"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
