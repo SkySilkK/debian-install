@@ -124,7 +124,7 @@ rm -rf ~/.config/nvim/.git
 cargo install eza
 
 #Install terminal file manager
-cargo install yazi
+cargo install yazi-fm yazi-cli
 
 #Install wallpaper utility waypaper
 sudo nala install -y pkg-config libcairo2-dev libgirepository1.0-dev
