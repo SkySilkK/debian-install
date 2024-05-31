@@ -133,6 +133,8 @@ sudo nala install -y pkg-config libcairo2-dev libgirepository1.0-dev
 pipx install autotiling
 pipx install waypaper
 
+#Set gnome apps dark theme
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 #add all stow configs
 stow .
 #Reboot the system
